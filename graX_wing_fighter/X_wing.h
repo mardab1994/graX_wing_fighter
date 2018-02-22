@@ -6,9 +6,6 @@
 #include <avr/pgmspace.h>
 #include <stdlib.h>
 #include"Naglowki.h"
-//#include <Adafruit_GFX.h>
-//#include <Adafruit_SH1106.h>
-
 
 class X_wing
 {

@@ -15,8 +15,6 @@ X_wing::~X_wing()
 
 void X_wing::draw(int x, Adafruit_SH1106 *display)
 {
-	//this->x = x;
-	//this->y = y;
 	display->drawPixel(x, yPos, WHITE);
 	for (int i = 0; i<11; i++)
 	{
@@ -86,8 +84,7 @@ void X_wing::shoot(Adafruit_SH1106 *display)
 {
 	if (this->xShoot == NULL)
 	{
-		//this->yShoot = this->y;
-		//this->xShoot = this->x;
+
 	}
 	else
 	{

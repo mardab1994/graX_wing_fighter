@@ -5,9 +5,6 @@
 
 #include"Naglowki.h"
 
-//#include "Adafruit_GFX.h"
-//#include "Adafruit_SH1106.h"
-
 class shoot
 {
 private:
